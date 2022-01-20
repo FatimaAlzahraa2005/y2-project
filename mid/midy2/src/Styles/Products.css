@@ -1,0 +1,20 @@
+.Products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(140, 170, 166); */
+    min-height: 90vh;
+  }
+  .mainProducts {
+    background-color: rgb(140, 170, 166);
+    width: 100%;
+  }
+  
+  .SearchBar {
+    width: 40%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }

@@ -1,0 +1,21 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(63, 144, 133);
+    color: white;
+  }
+  
+  .NavLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .NavLink {
+    color: white;
+    text-decoration: none;
+  }

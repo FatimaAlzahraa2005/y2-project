@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.navbar__link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.navbar__brand {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.navbar__status {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.navbar__status__message {
+  border: none;
+  background: none;
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+.home {
+  margin-top: 2rem;
+}
+
+.home__universities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.university__card {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.university__card img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.2);
+}
+
+.university__card h5 {
+  color: #fff;
+  padding: 25px;
+}
+.university__card p {
+  color: #fff;
+  padding: 0 25px 0px 25px;
+}
+
+/* UNIVERSITY */
+
+.university__container__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.university__container__description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.university__container__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.university__container__wrapper__image {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.university__button {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

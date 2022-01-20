@@ -1,0 +1,33 @@
+.ContactUs {
+    background-color: rgb(140, 170, 166);
+    /* width: 100%; */
+    min-height: 90vh;
+    padding-left: 20px;
+  }
+  .ContactTitle {
+    margin: 0;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: 25px;
+  }
+  
+  .NameInput {
+    width: 30%;
+  }
+  
+  .TextInput {
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 10px !important;
+    padding: 2px;
+  }
+  .EmailInput {
+    width: 30%;
+  }
+  
+  .MessageInput {
+    width: 63%;
+  }
+  .SendBtn {
+    margin: 10px;
+  }
